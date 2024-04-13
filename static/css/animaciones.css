@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.circulo{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+
+    animation-name:cambiar;
+    animation-duration: 5s;
+    animation-direction: normal;
+    animation-delay: 2s;
+    animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+    animation-fill-mode: backwards;
+    animation-iteration-count:1;
+}
+@keyframes cambiar{
+0%{
+    background-color: green;
+}
+50%{
+    transform: translateX(100%) translateY(100%);
+}
+100%{
+    border-radius: 50%;
+    background-color: blue;
+    transform: scale(0.5);
+}
+
+}

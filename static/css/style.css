@@ -1,0 +1,68 @@
+ :root{
+    --bg-color:#171318;
+    --primary-color:#9f3647;
+    --secondary-color:#ffc098;
+    --third-color:#db4648;
+    --third-bis-color:#db4648f2;
+    --bg-input-color:#4f31572c;
+    } 
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito',sans-serif;
+
+    
+}
+
+.header{
+    background-color: #FFF;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    
+    ;}
+
+body{
+    background-color: var(--bg-color);
+}
+
+
+a{
+    text-decoration: none;
+}
+h2{
+    
+    color: #FFF;
+    font-size: 2vw;
+
+}
+#logo{
+    font-weight: bold;
+    
+}
+.search-title{
+    color: white;
+    font-size: 3vw;
+}
+.movie-item-img{
+    width: 200px;
+    height: 300px;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+
+
+{
+    .scrolled{background-color: var(--third-color);}
+}
+#banner{
+    background-image: url('../img/banner-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    box-shadow: inset 0 0 0 2000px rgba (84,84,84,0.5)
+;
+}

@@ -1,0 +1,28 @@
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    src:
+      local("Open Sans"),
+      url("/fonts/opensans.woff2") format("woff2"),
+      url("/fonts/opensans.woff") format("woff"),
+      url("/fonts/opensans.ttf") format("truetype");
+  }
+
+/* todos los parrafos son azules */
+
+p{
+color: blue;
+}
+/* las clases con el nombre segundo se aplica rojo */
+.segundo{
+color: red;
+}
+/* ID MAYOR PRIORIDAD LE APLICAMOS COLOR VERDE */
+#prioridad{
+    color:green;
+    /* aplico negrita al parrafo si deseo aplñicarlo solo a una palabra usar etiqueta b en html*/
+font-weight: bold;
+/* tamaño */
+font-size: 0.75em;
+}

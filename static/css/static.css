@@ -1,0 +1,32 @@
+/* Elementos no posicionados , no se puede usar top,left,rigth o bottom */
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.padre{
+    width: 600px;
+    border:3px dotted red ;
+    padding: 5px;
+    margin: 10px;
+    
+}
+.hijo.hijo1{
+    width: 200px;
+    border: 2px solid violet;
+    margin: 30px;
+   
+}
+.hijo{
+    width: 200px;
+    border: 2px solid blue;
+    margin: 20px;
+    /* float: left; */
+}
+/* p{
+    clear: both;
+} */
